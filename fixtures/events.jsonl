@@ -1,0 +1,4 @@
+{"event_id": "a", "device": "d1", "event_at_seconds": 0, "revision": 1, "withdrawn": false}
+{"event_id": "c", "device": "d1", "event_at_seconds": 20, "revision": 1, "withdrawn": false}
+{"event_id": "b", "device": "d1", "event_at_seconds": 10, "revision": 1, "withdrawn": false}
+{"event_id": "b", "device": "d1", "event_at_seconds": 10, "revision": 2, "withdrawn": true}

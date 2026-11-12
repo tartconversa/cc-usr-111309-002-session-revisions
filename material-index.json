@@ -1,0 +1,12 @@
+[
+  {
+    "path": "fixtures/events.jsonl",
+    "sha256": "556b227caebf63aa964ce349b61766bc35d21b9fdc7077e349dbf4b59b9f47ed",
+    "size_bytes": 370
+  },
+  {
+    "path": "fixtures/sessions.json",
+    "sha256": "8d666601306780e312dc70fcc7a3841267555ae881b55f910b4b1a2aae367327",
+    "size_bytes": 167
+  }
+]
