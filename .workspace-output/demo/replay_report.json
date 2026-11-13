@@ -1,0 +1,173 @@
+{
+  "gap_seconds": 10,
+  "time_origin": "2026-11-12T23:59:55+08:00",
+  "raw_event_count": 4,
+  "devices": [
+    "d1"
+  ],
+  "input_versions_declared": [
+    2,
+    3,
+    4
+  ],
+  "version_members": [
+    {
+      "device": "d1",
+      "version": 0,
+      "sessions": [],
+      "bridges": []
+    },
+    {
+      "device": "d1",
+      "version": 1,
+      "sessions": [
+        {
+          "session_key": "a",
+          "member_ids": [
+            "a"
+          ],
+          "member_count": 1,
+          "started_at": 0,
+          "ended_at": 0,
+          "duration_seconds": 0
+        }
+      ],
+      "bridges": []
+    },
+    {
+      "device": "d1",
+      "version": 2,
+      "sessions": [
+        {
+          "session_key": "a",
+          "member_ids": [
+            "a"
+          ],
+          "member_count": 1,
+          "started_at": 0,
+          "ended_at": 0,
+          "duration_seconds": 0
+        },
+        {
+          "session_key": "c",
+          "member_ids": [
+            "c"
+          ],
+          "member_count": 1,
+          "started_at": 20,
+          "ended_at": 20,
+          "duration_seconds": 0
+        }
+      ],
+      "bridges": []
+    },
+    {
+      "device": "d1",
+      "version": 3,
+      "sessions": [
+        {
+          "session_key": "a",
+          "member_ids": [
+            "a",
+            "b",
+            "c"
+          ],
+          "member_count": 3,
+          "started_at": 0,
+          "ended_at": 20,
+          "duration_seconds": 20
+        }
+      ],
+      "bridges": [
+        {
+          "left_event_id": "a",
+          "right_event_id": "b",
+          "gap_seconds": 10
+        },
+        {
+          "left_event_id": "b",
+          "right_event_id": "c",
+          "gap_seconds": 10
+        }
+      ]
+    },
+    {
+      "device": "d1",
+      "version": 4,
+      "sessions": [
+        {
+          "session_key": "a",
+          "member_ids": [
+            "a"
+          ],
+          "member_count": 1,
+          "started_at": 0,
+          "ended_at": 0,
+          "duration_seconds": 0
+        },
+        {
+          "session_key": "c",
+          "member_ids": [
+            "c"
+          ],
+          "member_count": 1,
+          "started_at": 20,
+          "ended_at": 20,
+          "duration_seconds": 0
+        }
+      ],
+      "bridges": []
+    }
+  ],
+  "conservation_checks": [
+    {
+      "device": "d1",
+      "version": 0,
+      "members_sum": 0,
+      "sessions": 0,
+      "bridges": 0,
+      "identity_members_eq_bridges_plus_sessions": true
+    },
+    {
+      "device": "d1",
+      "version": 1,
+      "members_sum": 1,
+      "sessions": 1,
+      "bridges": 0,
+      "identity_members_eq_bridges_plus_sessions": true
+    },
+    {
+      "device": "d1",
+      "version": 2,
+      "members_sum": 2,
+      "sessions": 2,
+      "bridges": 0,
+      "identity_members_eq_bridges_plus_sessions": true
+    },
+    {
+      "device": "d1",
+      "version": 3,
+      "members_sum": 3,
+      "sessions": 1,
+      "bridges": 2,
+      "identity_members_eq_bridges_plus_sessions": true
+    },
+    {
+      "device": "d1",
+      "version": 4,
+      "members_sum": 2,
+      "sessions": 2,
+      "bridges": 0,
+      "identity_members_eq_bridges_plus_sessions": true
+    },
+    {
+      "device": "d1",
+      "version": 4,
+      "active_events": 2,
+      "withdrawn_events": 1,
+      "quarantined_events": 0,
+      "members_sum": 2,
+      "active_eq_members_sum": true
+    }
+  ]
+}

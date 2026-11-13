@@ -1,0 +1,12 @@
+{"device": "d1", "version": 1, "op": "publish", "fact_kind": "session", "fact_id": "d1:sf:1", "fact": {"fact_id": "d1:sf:1", "device": "d1", "session_key": "a", "member_ids": ["a"], "member_count": 1, "started_at": 0, "ended_at": 0, "duration_seconds": 0, "first_published_version": 1}}
+{"device": "d1", "version": 2, "op": "publish", "fact_kind": "session", "fact_id": "d1:sf:2", "fact": {"fact_id": "d1:sf:2", "device": "d1", "session_key": "c", "member_ids": ["c"], "member_count": 1, "started_at": 20, "ended_at": 20, "duration_seconds": 0, "first_published_version": 2}}
+{"device": "d1", "version": 3, "op": "revoke", "fact_kind": "session", "fact_id": "d1:sf:1"}
+{"device": "d1", "version": 3, "op": "revoke", "fact_kind": "session", "fact_id": "d1:sf:2"}
+{"device": "d1", "version": 3, "op": "publish", "fact_kind": "session", "fact_id": "d1:sf:3", "fact": {"fact_id": "d1:sf:3", "device": "d1", "session_key": "a", "member_ids": ["a", "b", "c"], "member_count": 3, "started_at": 0, "ended_at": 20, "duration_seconds": 20, "first_published_version": 3}}
+{"device": "d1", "version": 3, "op": "publish", "fact_kind": "bridge", "fact_id": "d1:br:4", "fact": {"fact_id": "d1:br:4", "device": "d1", "session_key": "a", "left_event_id": "a", "right_event_id": "b", "left_event_at_seconds": 0, "gap_seconds": 10, "first_published_version": 3}}
+{"device": "d1", "version": 3, "op": "publish", "fact_kind": "bridge", "fact_id": "d1:br:5", "fact": {"fact_id": "d1:br:5", "device": "d1", "session_key": "a", "left_event_id": "b", "right_event_id": "c", "left_event_at_seconds": 10, "gap_seconds": 10, "first_published_version": 3}}
+{"device": "d1", "version": 4, "op": "revoke", "fact_kind": "session", "fact_id": "d1:sf:3"}
+{"device": "d1", "version": 4, "op": "revoke", "fact_kind": "bridge", "fact_id": "d1:br:4"}
+{"device": "d1", "version": 4, "op": "revoke", "fact_kind": "bridge", "fact_id": "d1:br:5"}
+{"device": "d1", "version": 4, "op": "publish", "fact_kind": "session", "fact_id": "d1:sf:6", "fact": {"fact_id": "d1:sf:6", "device": "d1", "session_key": "a", "member_ids": ["a"], "member_count": 1, "started_at": 0, "ended_at": 0, "duration_seconds": 0, "first_published_version": 4}}
+{"device": "d1", "version": 4, "op": "publish", "fact_kind": "session", "fact_id": "d1:sf:7", "fact": {"fact_id": "d1:sf:7", "device": "d1", "session_key": "c", "member_ids": ["c"], "member_count": 1, "started_at": 20, "ended_at": 20, "duration_seconds": 0, "first_published_version": 4}}
